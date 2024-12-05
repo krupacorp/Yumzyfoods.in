@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumzy Foods - Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FF0000; /* Full red background */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .coming-soon {
+            text-align: center;
+        }
+        .coming-soon h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .coming-soon img {
+            width: 150px;
+            height: 150px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon">
+        <h1>Coming Soon</h1>
+        <img src="https://via.placeholder.com/150" alt="Coming Soon Icon">
+    </div>
+</body>
+</html>
