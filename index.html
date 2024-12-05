@@ -10,30 +10,27 @@
             padding: 0;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #FF0000; /* Full red background */
+            background-color: #FF0000; /* Red background */
             color: white;
             font-family: Arial, sans-serif;
-        }
-        .coming-soon {
             text-align: center;
         }
-        .coming-soon h1 {
-            font-size: 3rem;
-            margin: 0;
+        .logo {
+            width: 300px; /* Adjust size for a larger logo */
+            height: auto;
+            margin-bottom: 20px;
         }
-        .coming-soon img {
-            width: 150px;
-            height: 150px;
-            margin-top: 20px;
+        .coming-soon {
+            font-size: 2rem;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <div class="coming-soon">
-        <h1>Coming Soon</h1>
-        <img src="https://via.placeholder.com/150" alt="Coming Soon Icon">
-    </div>
+    <img src="logo.png" alt="Yumzy Logo" class="logo"> <!-- Replace 'logo.png' with the actual path to your logo -->
+    <div class="coming-soon">Coming Soon</div>
 </body>
 </html>
